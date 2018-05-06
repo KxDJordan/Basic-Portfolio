@@ -2,42 +2,170 @@ body {
    background-image: url("../images/intersection.png");
 }
 
-#contentHolder {
-    width: 960px;
-    height: 100%;
-    margin: auto;
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+p, a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 20px 20px 0px 20px;
 }
 
 nav {
-    /* position: fixed; */
+    position: absolute;
     float: left;
-    top: 0;
+    width: 100%;
     left: 0;
     right: 0;
-    background-color: #4aaaa5;
-    width: auto;
-    padding: 30px;
+    top: 0;
+    height: 80px;
     margin-bottom: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    z-index: 1;
 }
 
-#mainHeader {
-    font-family: 'Georgia, Times, Times New Roman, serif';
-    color: #ffffff;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
 }
 
-#aboutMe {
-    font-family: 'Georgia, Times, Times New Roman, serif';
+.nameHolder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+
+.navItems {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+#nameBox {
+    background-color: #4aaaa5;
+    color: #4aaaa5;
+    margin-right: auto;
+    float: left;
+    clear: both;
+    height: 80px;
+    padding: 0px 20px 0px 20px;
+}
+
+#mainBody {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 960px;
+    /* height: 1000px; */
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    border: 1px solid #dddddd;
+}
+
+#splitter {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+#profileImage {
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin: 20px;
+}
+
+
+#copyRight {
+    color: white;
+    font-size: 12px;
+}
+
+#nameText {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+#contact {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    float: right;
+    border-right: 1px solid #dddddd;
+    color: #777777;
+    text-decoration: none;
+}
+
+#portfolio {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 30px;
+    float: right;
+    color: #777777;
+    text-decoration: none;
+}
+
+#about {
+    margin: 30px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+    float: right;
+    border-right: 1px solid #dddddd;
+    color: #777777;
+    text-decoration: none;
+}
+
+#contact.visited, #about.visted, #portfolio.visited {
     color: #4aaaa5;
 }
-.container {
-    float: left;
-    background-color: white;
-    margin: auto;
-    width: 960px;
-    overflow: auto;
-    clear: both;
-    height: 700px;
+
+#nameInput, #emailInput, #messageInput {
+    margin-left: 20px;
+    border: 1px solid #dddddd;
+    margin-top: 5px;
 }
 
+#formLabel {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    margin: 20px 20px 0px 20px;
+    border: 1px solid #dddddd;
+}
+
+#submitText {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+    margin: 5px 10px 5px 10px;
+}
+
+.clearfix::after {
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+    overflow: auto;
+}
+ 
 
 
