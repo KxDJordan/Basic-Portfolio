@@ -1,0 +1,43 @@
+body {
+   background-image: url("../images/intersection.png");
+}
+
+#contentHolder {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+nav {
+    /* position: fixed; */
+    float: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #4aaaa5;
+    width: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#mainHeader {
+    font-family: 'Georgia, Times, Times New Roman, serif';
+    color: #ffffff;
+}
+
+#aboutMe {
+    font-family: 'Georgia, Times, Times New Roman, serif';
+    color: #4aaaa5;
+}
+.container {
+    float: left;
+    background-color: white;
+    margin: auto;
+    width: 960px;
+    overflow: auto;
+    clear: both;
+    height: 700px;
+}
+
+
+
