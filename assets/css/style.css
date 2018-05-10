@@ -19,6 +19,10 @@ p, a {
     line-height: 24px;
 }
 
+#pStart, #pStart2, #pStart3 {
+    text-indent: 20px;
+}
+
 nav {
     position: absolute;
     float: left;
